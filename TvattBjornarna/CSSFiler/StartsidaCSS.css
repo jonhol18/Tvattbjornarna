@@ -1,0 +1,124 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(141, 157, 187);
+    border-radius: 5px 5px 0px 0px;
+  }
+  ul.circle {
+    list-style-type: circle;
+    background-color: #eeeeee;
+    text-align: center;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px; 
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
+  }
+  
+  li a:hover {
+    background-color: rgb(109, 122, 146);
+  }
+
+  div.bakgrund{
+    background-color: #eeeeee;
+    margin-left: 185px;
+    margin-right: 185px;
+  }
+
+  .icon1{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-bottom: 5px;
+  }
+
+  .icon2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.icon3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+
+    
+    .button {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(141, 157, 187);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+    margin: 5px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  div.footer2{
+    background-color: rgb(141, 157, 187);
+    margin-top: 45px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px;
+  }
+
+  .footer1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: small;
+    color: white;
+  }

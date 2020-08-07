@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Raleway" rel="stylesheet">
+        <style>
+        /* all CSS till AdminAnvandarePHP görs här */
+    ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(141, 157, 187);
+    border-radius: 5px 5px 0px 0px;
+    }
+  
+    li {
+    float: left;
+    }
+  
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px; 
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
+    }
+  
+    li a:hover {
+    background-color: rgb(109, 122, 146);
+    }
+
+    div.bakgrund{
+    background-color: #eeeeee;
+    margin-left: 150px;
+    margin-right: 150px;
+    }
+
+    body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    }
+
+    table{
+    border-collapse: collapse;
+    width: 80%;
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    text-align:  center;
+    }
+
+    td, th {
+    padding: 8px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-small;
+    width: 20%;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    }
+
+    th{
+    background-color:whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-small;
+    }
+
+    tr:hover {
+    background-color:#d6d6d6;
+    }
+
+    h3{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    }
+
+    input[type=text], select {
+    text-align: center;
+    padding: 12px;
+    border: 1px  rgb(141, 157, 187);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 8px;
+    width:50%;
+    }
+  
+    input[type=submit] {
+    background-color:  rgb(141, 157, 187);
+    color:white;
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    width:50%;
+    }
+  
+    input[type=submit]:hover {
+    background-color: rgb(102, 121, 156);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    }
+
+    div.footer2{
+    background-color: rgb(141, 157, 187);
+    margin-top: 45px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px;
+  }
+
+  .footer1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: small;
+    color: white;
+  }
+
+        
+        </style>
+
+    <!-- Jquery funktion -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script> 
+    $(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+    });
+    </script>
+
+    </head>
+    <body>
+    <!-- bodyn börjar här och avslutas i AdminAnvandare.php -->
+    <ul class="meny" style="margin-left: 150px; margin-right: 150px; margin-top: 0px;">
+        <li><a class="active" href="../adminSidor/AdminsStartsida.php"><img src="../../Bilder/tvatt.png" height="25px;" style="position: relative; left: 0%"></a></li>
+        <li style="..."><a href="../LogOutPHP.php">LOGGA UT</a></li>
+        <li style="float: right; position: arelative;"><a href="../adminSidor/AdminOmradenPHP.php">OMRÅDEN</a></li>
+        <li style="float: right; position: arelative;"><a href="../adminSidor/AdminSeTider.php">BOKADE TIDER</a></li>
+        <li style="float: right; position: arelative;"><a href="../adminSidor/AdminFelanmalan.php">FELANMÄLAN</a></li>
+    </ul>
+    <div class="bakgrund">    

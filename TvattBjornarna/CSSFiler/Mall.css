@@ -1,0 +1,178 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}     
+ul {  
+list-style-type: none;
+margin: 0;
+margin-top: 0;
+margin-bottom: 0px;
+padding: 0;
+overflow: hidden;
+background-color: rgb(141, 157, 187);
+border-radius: 5px 5px 0px 0px;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 30px; 
+text-decoration: none;
+font-family: 'Raleway', sans-serif;
+
+}
+
+li a:hover {
+background-color: rgb(109, 122, 146);
+}
+
+div.bakgrund{
+background-color: #eeeeee;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+div.footer2{
+background-color: rgb(141, 157, 187);
+margin-top: 45px;
+border-radius: 0px 0px 5px 5px;
+padding: 5px;
+}
+
+.footer1{
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: small;
+color: white;
+}
+
+
+
+
+/*Log In form*/
+input {
+    padding: 12px;
+    border: 1px  rgb(141, 157, 187);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 16px;
+    width:100%;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color:  rgb(141, 157, 187);
+    color:white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    width:100%;
+  }
+  #ButtonLogIn
+  { background-color:  rgb(141, 157, 187);
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    width:100%;
+  }
+  
+  /* Style the container for inputs */
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /*Ifall inmatning är inkorrekt*/
+  .invalid {
+    color: red; 
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  } 
+
+  .centreraDiv{ /*https://www.w3.org/Style/Examples/007/center.en.html*/
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .labelStyle /*Nyansering för label*/
+  {
+    position: relative;
+    color:  rgb(141, 157, 187);
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  #lgnr
+  {
+    position: relative;
+    width:29%;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; 
+  }
+#postnr
+{
+  position: relative;
+  width:20%;
+  align-items: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif; 
+}
+  .alink{ /*Klass för länken "bli medlem". Hade den inte varit i en klass så hade menyn även påverkats av denna css*/
+    top:0%;
+    text-align:center;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aLink:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    
+  }
+  .aLink:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .aLink:hover {
+    color:  rgb(141, 157, 187);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .aLink:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  
